@@ -98,6 +98,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+}
 
 /* about section styles */
 .about {
@@ -128,6 +131,55 @@ main {
   text-align: center;
   color: #474747;
 }
-#wspd{
+
+/* What I do section styles start */
+#wspd {
   padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill-desc {
+  color: #757575;
+}
+.skill {
+  padding: 30px;
+  gap: 24px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+/* Resume section Styles start here */
+
+.resume-column-title {
+  font-weight: 700;
+  font-size: 23px;
+  color: #474747;
+}
+.resume-container{
+  display: flex;
+  gap: 50px;
+  padding: 0 60px;
+}
+.resume-item-desc{
+  color: #757575;
+}
+
+.resume-item-institute{
+  color: #757575;
+  font-size: 16px;
+}
+.resume-item-title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.resume-column{
+  justify-content: space-between;
+  align-items: center;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 30px;
 }
