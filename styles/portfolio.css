@@ -13,12 +13,19 @@ nav {
 /* nav related styles */
 .nav-title {
   font-weight: 800;
-  font-size: 45px;
-  line-height: 61px;
+  font-size: 35px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 
 nav > ul {
   display: flex;
+  align-items: center;
+  
 }
 
 nav li {
@@ -33,4 +40,22 @@ nav a {
 .btn-primary {
   background: #fd6e0a;
   border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px 25px;
+}
+
+/* header related styles */
+.header{
+  background-color: #FFF8F3;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 500px;
 }
